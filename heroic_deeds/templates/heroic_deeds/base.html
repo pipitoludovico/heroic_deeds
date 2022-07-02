@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+</head>
+<body>
+<p><a href="{% url 'heroic_deeds:index' %}">Heroic Log ></a></p>
+<p><a href="{% url 'heroic_deeds:topics' %}" > Heroic Topics</a>
+</p>
+{% block content %}{% endblock content %}
+</body>
+</html>
